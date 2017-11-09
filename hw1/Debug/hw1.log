@@ -1,0 +1,15 @@
+﻿  hw1.cpp
+c:\users\bao\desktop\hw1\hw1\hw1.cpp(34): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\bao\desktop\hw1\hw1\hw1.cpp(51): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvCreateImage 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvReleaseImage 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvGet2D 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvSet2D 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvLoadImage 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvNamedWindow 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvShowImage 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvDestroyWindow 在函式 _main 中被參考
+hw1.obj : error LNK2019: 無法解析的外部符號 _cvWaitKey 在函式 _main 中被參考
+C:\opencv\build\x64\vc14\lib\opencv_world330.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'x86' 發生衝突
+C:\opencv\build\x64\vc14\lib\opencv_world330d.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'x86' 發生衝突
+C:\Users\Bao\Desktop\hw1\Debug\hw1.exe : fatal error LNK1120: 9 個無法解析的外部符號
